@@ -9,6 +9,11 @@
   weight = 20
 
 [[main]]
+  name = "Jeep"
+  url = "/jeep/"
+  weight = 25
+
+[[main]]
   name = "Tech"
   url = "/categories/tech/"
   weight = 30
