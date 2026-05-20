@@ -3,6 +3,7 @@ locale = 'en-us'
 title = 'Wayne McKnight'
 theme = 'PaperMod'
 paginate = 10
+enableRobotsTXT = true
 
 [params]
   author = "Wayne McKnight"
@@ -12,6 +13,29 @@ paginate = 10
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowFullTextinRSS = true
+  ShowShareButtons = false
+  ShowToc = true
+  defaultTheme = "auto"
+  disableScrollToTop = false
+
+  [params.homeInfoParams]
+    Title = "Wayne McKnight"
+    Content = """
+Network Administrator at Brenham ISD. U.S. Navy veteran. Former Colorado County IT Coordinator with 25+ years across government, law enforcement, healthcare, and education.
+
+This is where I write about technology, networking, and whatever else is on my mind.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/waynemcknight-code"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:wayne.mcknight@gmail.com"
+
+  [params.assets]
+    disableHLJS = false
 
 [menu]
   [[menu.main]]
@@ -26,3 +50,10 @@ paginate = 10
     name = "About"
     url = "/about/"
     weight = 3
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

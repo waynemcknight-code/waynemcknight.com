@@ -1,51 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Wayne McKnight</title><link>https://waynemcknight.com/</link><description>Recent content on Wayne McKnight</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://waynemcknight.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://waynemcknight.com/about/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://waynemcknight.com/about/</guid><description>&lt;p&gt;I&amp;rsquo;m Wayne McKnight — network administrator, U.S. Navy veteran, and IT professional based in Columbus, Texas.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve spent 25+ years working in IT across government, law enforcement, healthcare, and education. I currently manage network infrastructure for Brenham ISD and previously served as IT Coordinator for Colorado County, where I built and maintained the county&amp;rsquo;s technology infrastructure from the ground up.&lt;/p&gt;
-&lt;p&gt;This site is where I post about technology, network administration, and whatever else is on my mind.&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;m Wayne McKnight — network administrator, U.S. Navy veteran, and IT professional based in Columbus, Texas.</p>
-<p>I&rsquo;ve spent 25+ years working in IT across government, law enforcement, healthcare, and education. I currently manage network infrastructure for Brenham ISD and previously served as IT Coordinator for Colorado County, where I built and maintained the county&rsquo;s technology infrastructure from the ground up.</p>
-<p>This site is where I post about technology, network administration, and whatever else is on my mind.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Wayne McKnight</title><link>https://waynemcknight.com/</link><description>Recent content on Wayne McKnight</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://waynemcknight.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://waynemcknight.com/about/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://waynemcknight.com/about/</guid><description>&lt;p&gt;I&amp;rsquo;m Wayne McKnight — senior systems and infrastructure engineer, U.S. Navy veteran, and IT professional based in Columbus, Texas.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve spent 30+ years working in IT across K–12 education, county government, healthcare, and law enforcement. I currently architect and operate the core infrastructure for Brenham ISD, and previously served as IT Department Head for Colorado County, Texas — where I built and managed the technology infrastructure for the county government, the 911 Data Center, and the Colorado County Sheriff&amp;rsquo;s Office.&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;m Wayne McKnight — senior systems and infrastructure engineer, U.S. Navy veteran, and IT professional based in Columbus, Texas.</p>
+<p>I&rsquo;ve spent 30+ years working in IT across K–12 education, county government, healthcare, and law enforcement. I currently architect and operate the core infrastructure for Brenham ISD, and previously served as IT Department Head for Colorado County, Texas — where I built and managed the technology infrastructure for the county government, the 911 Data Center, and the Colorado County Sheriff&rsquo;s Office.</p>
+<p>I&rsquo;m hands-on across the stack: Proxmox/Ceph virtualization, Cisco Meraki, Active Directory, Google Workspace, Cisco Unified Communications, Python automation, and more. I&rsquo;ve led a VMware-to-Proxmox migration, recovered a production cluster from a critical ZFS outage, and delivered a multi-million-dollar financial system migration on schedule.</p>
+<p>Before IT, I served aboard the USS Kitty Hawk (CV-63) as a Navy Personnel Administrator, earning the Navy Achievement Medal for building automation tooling that replaced manual record-keeping processes shipboard.</p>
+<p>This site is where I write about technology, infrastructure, and whatever else is on my mind.</p>
 ]]></content:encoded></item><item><title>Hello World</title><link>https://waynemcknight.com/posts/hello-world/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://waynemcknight.com/posts/hello-world/</guid><description>&lt;p&gt;First post. Site is live.&lt;/p&gt;
 &lt;p&gt;More to come.&lt;/p&gt;</description><content:encoded>&lt;p>First post. Site is live.&lt;/p>
 &lt;p>More to come.&lt;/p>
 </content:encoded></item><item><title>Resume</title><link>https://waynemcknight.com/resume/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://waynemcknight.com/resume/</guid><description>&lt;h2 id="wayne-mcknight"&gt;Wayne McKnight&lt;/h2&gt;
-&lt;p&gt;Columbus, TX | &lt;a href="mailto:wayne.mcknight@gmail.com"&gt;wayne.mcknight@gmail.com&lt;/a&gt; | 979-661-9362&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Senior Systems &amp;amp; Infrastructure Engineer // U.S. Navy Veteran&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Columbus, TX · 979.661.9362 · &lt;a href="mailto:wayne.mcknight@gmail.com"&gt;wayne.mcknight@gmail.com&lt;/a&gt; · Remote-Only&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id="summary"&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Network Administrator and IT professional with 25+ years of experience across government, law enforcement, healthcare, and education. U.S. Navy veteran. Proven track record managing complex infrastructure in high-accountability environments.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="experience"&gt;Experience&lt;/h2&gt;
-&lt;h3 id="network-administrator--brenham-isd"&gt;Network Administrator — Brenham ISD&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Current&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Managing district-wide network infrastructure, security, and systems for a K-12 school district.&lt;/p&gt;
-&lt;h3 id="it-coordinator--colorado-county"&gt;IT Coordinator — Colorado County&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Prior Role&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Built and managed the IT infrastructure for Colorado County government, including the Colorado County Sheriff&amp;rsquo;s Office network (LAN architecture, video surveillance systems, server infrastructure, and backup systems). Seven-year tenure.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="wayne-mcknight">Wayne McKnight</h2>
-<p>Columbus, TX | <a href="mailto:wayne.mcknight@gmail.com">wayne.mcknight@gmail.com</a> | 979-661-9362</p>
+&lt;h2 id="professional-summary"&gt;Professional Summary&lt;/h2&gt;
+&lt;p&gt;Senior systems and infrastructure engineer with 40+ years working with computer systems and 30+ years of professional IT experience across K–12 education, county government, healthcare, and law enforcement environments. Currently architect, operator, and on-call escalation point for a multi-campus district running Proxmox/Ceph hyper-converged virtualization, VMware ESXi, Active Directory, Cisco Meraki networking, and Cisco Unified Communications, with Python and shell automation across the operational tooling. Proven under pressure: led a full VMware-to-Proxmox migration, recovered a production cluster from a critical ZFS outage, and delivered a multi-million-dollar financial system migration on schedule. U.S. Navy veteran. Disciplined, self-directed, and built for a fully remote role.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="wayne-mcknight">Wayne McKnight</h2>
+<p><strong>Senior Systems &amp; Infrastructure Engineer  //  U.S. Navy Veteran</strong></p>
+<p>Columbus, TX  ·  979.661.9362  ·  <a href="mailto:wayne.mcknight@gmail.com">wayne.mcknight@gmail.com</a>  ·  Remote-Only</p>
 <hr>
-<h2 id="summary">Summary</h2>
-<p>Network Administrator and IT professional with 25+ years of experience across government, law enforcement, healthcare, and education. U.S. Navy veteran. Proven track record managing complex infrastructure in high-accountability environments.</p>
+<h2 id="professional-summary">Professional Summary</h2>
+<p>Senior systems and infrastructure engineer with 40+ years working with computer systems and 30+ years of professional IT experience across K–12 education, county government, healthcare, and law enforcement environments. Currently architect, operator, and on-call escalation point for a multi-campus district running Proxmox/Ceph hyper-converged virtualization, VMware ESXi, Active Directory, Cisco Meraki networking, and Cisco Unified Communications, with Python and shell automation across the operational tooling. Proven under pressure: led a full VMware-to-Proxmox migration, recovered a production cluster from a critical ZFS outage, and delivered a multi-million-dollar financial system migration on schedule. U.S. Navy veteran. Disciplined, self-directed, and built for a fully remote role.</p>
 <hr>
-<h2 id="experience">Experience</h2>
-<h3 id="network-administrator--brenham-isd">Network Administrator — Brenham ISD</h3>
-<p><em>Current</em></p>
-<p>Managing district-wide network infrastructure, security, and systems for a K-12 school district.</p>
-<h3 id="it-coordinator--colorado-county">IT Coordinator — Colorado County</h3>
-<p><em>Prior Role</em></p>
-<p>Built and managed the IT infrastructure for Colorado County government, including the Colorado County Sheriff&rsquo;s Office network (LAN architecture, video surveillance systems, server infrastructure, and backup systems). Seven-year tenure.</p>
+<h2 id="core-competencies">Core Competencies</h2>
+<p><strong>Virtualization &amp; HCI:</strong> Proxmox VE, Ceph (hyper-converged), VMware ESXi &amp; vCenter, Proxmox Backup Server, ZFS</p>
+<p><strong>Identity &amp; Platforms:</strong> Active Directory, Group Policy, DNS/DHCP, Google Workspace for Education, Microsoft 365, Windows Server, Debian/Ubuntu Linux</p>
+<p><strong>Networking:</strong> Cisco Meraki (full stack), VLAN segmentation, routing &amp; switching, jumbo-frame storage networks, firewalls, VPN, Palo Alto, TCP/IP</p>
+<p><strong>Unified Communications:</strong> Cisco CUCM (Pub/Sub), Cisco Unity Connection, Singlewire InformaCast, VoIP</p>
+<p><strong>Endpoint &amp; MDM:</strong> Scalefusion EMM, Radix Viso MDM, SCCM, Windows imaging, Microsoft / Apple / Google ecosystems</p>
+<p><strong>Operations &amp; Automation:</strong> Incident response, capacity planning, backup/DR design, Python (operational tooling, automation, API integration), shell/bash, systemd, change control</p>
 <hr>
-<h2 id="skills">Skills</h2>
+<h2 id="professional-experience">Professional Experience</h2>
+<h3 id="network--systems-administrator">Network / Systems Administrator</h3>
+<p><strong>Brenham Independent School District</strong> — Brenham, TX | Feb 2023 – Present</p>
 <ul>
-<li>Network administration (LAN/WAN, switching, routing)</li>
-<li>Windows Server, Active Directory</li>
-<li>Video surveillance systems</li>
-<li>Backup and disaster recovery (DLT/LTO tape)</li>
-<li>IT security and access control</li>
-<li>Government and law enforcement IT environments</li>
-<li>Healthcare IT</li>
+<li>Architect and operator of the district&rsquo;s core infrastructure across multiple campuses: AD, Google Workspace for Education, Cisco Meraki, virtualization, MDM, backup, monitoring, and end-user escalations.</li>
+<li>Led full VMware-to-Proxmox migration: designed and procured an EPYC cluster backed by Ceph hyper-converged storage; retained dedicated VMware ESXi for Cisco UC (CUCM Pub/Sub, Unity, InformaCast) to preserve voice failover.</li>
+<li>Recovered a production Proxmox cluster from a full ZFS pool outage; restored services and Ceph quorum, then engineered post-incident hardening (ZFS reservations, fleecing redirection, Postfix MTAs, ZED/SMTP alerting) to eliminate the failure mode.</li>
+<li>Administer the district&rsquo;s IP-based video surveillance under FBI CJIS Security Policy: access controls, retention, and law enforcement coordination.</li>
+<li>Leading cloud storage migration from iLand to S3 object storage on 11:11 Systems, including lifecycle policy design, S3 API integration, and cutover planning.</li>
+<li>Led the district&rsquo;s MUNIS-to-ASCENDER financial system migration end-to-end, coordinating finance, HR, and vendors without loss of fiscal-year continuity.</li>
 </ul>
+<h3 id="it-support-specialist-contract">IT Support Specialist (Contract)</h3>
+<p><strong>QA Systems</strong> — Austin, TX | Aug 2022 – Sep 2022</p>
+<p>Short-term enterprise K–12 contract supporting one of the largest school systems in Texas: hardware, imaging, computer-lab builds, and printer/network configuration across Microsoft, Apple, and Google ecosystems, working alongside Data Center, NOC, and Tech Design teams.</p>
+<h3 id="project-coordinator--assistant-pm--estimator">Project Coordinator / Assistant PM / Estimator</h3>
+<p><strong>Jim Hoffman Tile / D9 Tile</strong> — Columbus, TX | Jan 2016 – Aug 2022</p>
+<p>Commercial construction project management. Read and interpreted architectural plans, prepared estimates and submittals, and managed RFIs/ASIs and vendor coordination.</p>
+<h3 id="it-administrator-department-head">IT Administrator (Department Head)</h3>
+<p><strong>Colorado County, Texas</strong> — Columbus, TX | Apr 2010 – Dec 2015</p>
+<ul>
+<li>Department head for the county&rsquo;s IT function across every county department on a public-sector budget.</li>
+<li>Project-managed upgrades of the County Data Center and the 911 Data Center serving law enforcement across every city in the county, plus the technology buildout of the Colorado County Courthouse historical renovation including a new courthouse data center with redundant fiber to the County Annex.</li>
+<li>Issued public RFPs for major purchases, presented technology projects to the Commissioner&rsquo;s Court in open public session, and provided direct technology guidance to the courts, County Attorney, and Sheriff&rsquo;s Office.</li>
+</ul>
+<h3 id="it-field-technician">IT Field Technician</h3>
+<p><strong>Tekcom Technologies</strong> — Brenham, TX | Jan 2008 – Apr 2010</p>
+<p>Pre-sales scoping, sales, and service of high-end computers, servers, and networking. Led Saturn of Houston&rsquo;s transition from legacy ISDN dealer-network interconnects to site-to-site VPN.</p>
+<h3 id="it-field-engineer">IT Field Engineer</h3>
+<p><strong>Med-Net Solutions</strong> — Beaumont, TX | Aug 2004 – Dec 2007</p>
+<p>Deployed medical software, server hardware, and networking infrastructure for hospitals across the Beaumont region. Built redundant server arrays handling HIPAA-regulated patient data including systems supporting Nuclear Heart Imaging, CT, MRI, and other clinical imaging modalities. HP-authorized for server hardware and peripherals.</p>
+<h3 id="early-it-career--field-tech-service--qa">Early IT Career — Field Tech, Service &amp; QA</h3>
+<p><strong>Advanced Digital Technologies · Integrated Office Systems · Inacom Corporation · Intuit (QA, contract)</strong>
+Texas, California &amp; Ohio | Apr 1996 – Jun 2004</p>
+<p>Progressive HP-authorized field-tech and service roles. Data center server hardware, networking, and printing equipment for SMB, enterprise, and healthcare-adjacent customers. Earned HP Tech ID SC5065.</p>
 <hr>
 <h2 id="military-service">Military Service</h2>
-<p><strong>U.S. Navy</strong> — Veteran</p>
+<h3 id="personnel-administration-us-navy--honorable-discharge">Personnel Administration, U.S. Navy — Honorable Discharge</h3>
+<p><strong>USS Kitty Hawk (CV-63)</strong> | Sep 1993 – Mar 1996</p>
+<p>Managed enlisted personnel records aboard a forward-deployed supercarrier. Awarded the <strong>Navy Achievement Medal</strong> during WestPac 1994 deployment for designing and building a dBASE III application that automated personnel record tracking, replacing manual processes shipboard.</p>
 <hr>
-<h2 id="education">Education</h2>
-<p><em>(Add your education here)</em></p>
+<h2 id="certifications--education">Certifications &amp; Education</h2>
+<ul>
+<li><strong>FBI CJIS Security Awareness</strong> — Active certification, Criminal Justice Information Services Security Policy</li>
+<li><strong>HP Authorized Technician</strong> — Servers (entry through Blade), Networking, Routing &amp; Switching, LaserJet (Tech ID SC5065)</li>
+<li><strong>Personnelman &ldquo;A&rdquo; School</strong>, U.S. Navy — Nov 1993 – Feb 1994</li>
+<li><strong>High School Diploma</strong>, Columbus Grove High School, OH — 1993</li>
+</ul>
 ]]></content:encoded></item></channel></rss>
