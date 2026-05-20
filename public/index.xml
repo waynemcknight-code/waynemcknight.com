@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Wayne McKnight</title><link>https://waynemcknight.com/</link><description>Recent content on Wayne McKnight</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://waynemcknight.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://waynemcknight.com/about/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://waynemcknight.com/about/</guid><description>&lt;p&gt;I&amp;rsquo;m Wayne McKnight — network administrator, U.S. Navy veteran, and IT professional based in Columbus, Texas.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve spent 25+ years working in IT across government, law enforcement, healthcare, and education. I currently manage network infrastructure for Brenham ISD and previously served as IT Coordinator for Colorado County, where I built and maintained the county&amp;rsquo;s technology infrastructure from the ground up.&lt;/p&gt;
+&lt;p&gt;This site is where I post about technology, network administration, and whatever else is on my mind.&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;m Wayne McKnight — network administrator, U.S. Navy veteran, and IT professional based in Columbus, Texas.</p>
+<p>I&rsquo;ve spent 25+ years working in IT across government, law enforcement, healthcare, and education. I currently manage network infrastructure for Brenham ISD and previously served as IT Coordinator for Colorado County, where I built and maintained the county&rsquo;s technology infrastructure from the ground up.</p>
+<p>This site is where I post about technology, network administration, and whatever else is on my mind.</p>
+]]></content:encoded></item><item><title>Hello World</title><link>https://waynemcknight.com/posts/hello-world/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://waynemcknight.com/posts/hello-world/</guid><description>&lt;p&gt;First post. Site is live.&lt;/p&gt;
+&lt;p&gt;More to come.&lt;/p&gt;</description><content:encoded>&lt;p>First post. Site is live.&lt;/p>
+&lt;p>More to come.&lt;/p>
+</content:encoded></item><item><title>Resume</title><link>https://waynemcknight.com/resume/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://waynemcknight.com/resume/</guid><description>&lt;h2 id="wayne-mcknight"&gt;Wayne McKnight&lt;/h2&gt;
+&lt;p&gt;Columbus, TX | &lt;a href="mailto:wayne.mcknight@gmail.com"&gt;wayne.mcknight@gmail.com&lt;/a&gt; | 979-661-9362&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="summary"&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Network Administrator and IT professional with 25+ years of experience across government, law enforcement, healthcare, and education. U.S. Navy veteran. Proven track record managing complex infrastructure in high-accountability environments.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="experience"&gt;Experience&lt;/h2&gt;
+&lt;h3 id="network-administrator--brenham-isd"&gt;Network Administrator — Brenham ISD&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Current&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Managing district-wide network infrastructure, security, and systems for a K-12 school district.&lt;/p&gt;
+&lt;h3 id="it-coordinator--colorado-county"&gt;IT Coordinator — Colorado County&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Prior Role&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Built and managed the IT infrastructure for Colorado County government, including the Colorado County Sheriff&amp;rsquo;s Office network (LAN architecture, video surveillance systems, server infrastructure, and backup systems). Seven-year tenure.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="wayne-mcknight">Wayne McKnight</h2>
+<p>Columbus, TX | <a href="mailto:wayne.mcknight@gmail.com">wayne.mcknight@gmail.com</a> | 979-661-9362</p>
+<hr>
+<h2 id="summary">Summary</h2>
+<p>Network Administrator and IT professional with 25+ years of experience across government, law enforcement, healthcare, and education. U.S. Navy veteran. Proven track record managing complex infrastructure in high-accountability environments.</p>
+<hr>
+<h2 id="experience">Experience</h2>
+<h3 id="network-administrator--brenham-isd">Network Administrator — Brenham ISD</h3>
+<p><em>Current</em></p>
+<p>Managing district-wide network infrastructure, security, and systems for a K-12 school district.</p>
+<h3 id="it-coordinator--colorado-county">IT Coordinator — Colorado County</h3>
+<p><em>Prior Role</em></p>
+<p>Built and managed the IT infrastructure for Colorado County government, including the Colorado County Sheriff&rsquo;s Office network (LAN architecture, video surveillance systems, server infrastructure, and backup systems). Seven-year tenure.</p>
+<hr>
+<h2 id="skills">Skills</h2>
+<ul>
+<li>Network administration (LAN/WAN, switching, routing)</li>
+<li>Windows Server, Active Directory</li>
+<li>Video surveillance systems</li>
+<li>Backup and disaster recovery (DLT/LTO tape)</li>
+<li>IT security and access control</li>
+<li>Government and law enforcement IT environments</li>
+<li>Healthcare IT</li>
+</ul>
+<hr>
+<h2 id="military-service">Military Service</h2>
+<p><strong>U.S. Navy</strong> — Veteran</p>
+<hr>
+<h2 id="education">Education</h2>
+<p><em>(Add your education here)</em></p>
+]]></content:encoded></item></channel></rss>
