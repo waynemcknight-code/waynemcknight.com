@@ -1,11 +1,11 @@
 ---
 title: "Colorado County's PREA Compliance Failure Is a Taxpayer Time Bomb"
-date: 2026-05-20
+date: 2026-03-31
 draft: false
 categories: ["Politics", "Law"]
 ---
 
-*Published as a letter to the editor in the Colorado County Citizen, May 2026.*
+*Published as a letter to the editor in the Colorado County Citizen, March 31, 2026.*
 
 ---
 
