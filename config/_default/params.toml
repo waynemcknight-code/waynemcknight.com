@@ -1,0 +1,35 @@
+colorScheme = "ocean"
+
+[author]
+  name = "Wayne McKnight"
+  headline = "Senior Systems & Infrastructure Engineer  ·  U.S. Navy Veteran"
+  bio = "30+ years in IT across K–12 education, county government, healthcare, and law enforcement. Network Administrator at Brenham ISD. Columbus, TX."
+  email = "wayne.mcknight@gmail.com"
+  links = [
+    { github = "https://github.com/waynemcknight-code" },
+    { email = "mailto:wayne.mcknight@gmail.com" }
+  ]
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+homepage.layout = "profile"
+homepage.homepageImage = ""
+homepage.showRecent = true
+homepage.recentLimit = 5
+
+article.showDate = true
+article.showAuthor = false
+article.showBreadcrumbs = true
+article.showReadingTime = true
+article.showTableOfContents = true
+
+list.showBreadcrumbs = true
+
+header.layout = "basic"
+footer.showCopyright = true
+footer.showThemeAttribution = false
+footer.showScrollToTop = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
