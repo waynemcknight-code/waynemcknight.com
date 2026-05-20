@@ -1,0 +1,252 @@
+{{ define "main" }}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500&family=Rajdhani:wght@300;400;500;600&display=swap');
+
+#wm-hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #060d16 0%, #0a1628 55%, #0d1f35 100%);
+  display: flex;
+  align-items: center;
+  padding: 80px 10vw 60px;
+  position: relative;
+  overflow: hidden;
+  margin-top: -1px;
+}
+
+.wm-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0,212,190,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,212,190,0.04) 1px, transparent 1px);
+  background-size: 72px 72px;
+  animation: grid-drift 25s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes grid-drift {
+  0%   { transform: translate(0,0); }
+  100% { transform: translate(72px,72px); }
+}
+
+.wm-ring {
+  position: absolute;
+  right: -4vw;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52vmin;
+  height: 52vmin;
+  border-radius: 50%;
+  border: 1px solid rgba(0,212,190,0.1);
+  pointer-events: none;
+}
+.wm-ring::before {
+  content: '';
+  position: absolute;
+  inset: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,212,190,0.06);
+}
+.wm-ring::after {
+  content: '';
+  position: absolute;
+  inset: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,212,190,0.04);
+}
+
+.wm-content {
+  position: relative;
+  z-index: 2;
+  max-width: 760px;
+}
+
+.wm-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: #22d3ee;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin: 0 0 18px;
+  opacity: 0;
+  animation: wm-fade-up 0.5s ease forwards 0.1s;
+}
+.wm-eyebrow::before { content: '// '; opacity: 0.45; }
+
+.wm-name {
+  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-size: clamp(5rem, 13vw, 11rem);
+  line-height: 0.88;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  margin: 0 0 10px;
+  opacity: 0;
+  animation: wm-fade-up 0.6s ease forwards 0.2s;
+}
+.wm-name em {
+  font-style: normal;
+  color: #22d3ee;
+}
+
+.wm-bar {
+  width: 56px;
+  height: 3px;
+  background: linear-gradient(90deg, #22d3ee, transparent);
+  margin: 22px 0;
+  opacity: 0;
+  animation: wm-fade-up 0.5s ease forwards 0.35s;
+}
+
+.wm-tagline {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: clamp(0.9rem, 1.8vw, 1.15rem);
+  font-weight: 500;
+  color: #94a3b8;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  opacity: 0;
+  animation: wm-fade-up 0.5s ease forwards 0.42s;
+}
+
+.wm-bio {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #4e6175;
+  margin: 0 0 42px;
+  max-width: 460px;
+  opacity: 0;
+  animation: wm-fade-up 0.5s ease forwards 0.52s;
+}
+
+.wm-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+  opacity: 0;
+  animation: wm-fade-up 0.5s ease forwards 0.62s;
+}
+
+.wm-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 11px 26px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: all 0.18s ease;
+}
+.wm-btn-primary {
+  background: #22d3ee;
+  color: #060d16;
+  font-weight: 500;
+}
+.wm-btn-primary:hover {
+  background: #67e8f9;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(34,211,238,0.28);
+}
+.wm-btn-secondary {
+  border: 1px solid rgba(148,163,184,0.25);
+  color: #94a3b8;
+}
+.wm-btn-secondary:hover {
+  border-color: #22d3ee;
+  color: #22d3ee;
+  transform: translateY(-2px);
+}
+
+.wm-social {
+  display: flex;
+  gap: 18px;
+  opacity: 0;
+  animation: wm-fade-up 0.5s ease forwards 0.72s;
+}
+.wm-social a {
+  color: #334155;
+  transition: color 0.18s;
+  display: flex;
+  align-items: center;
+}
+.wm-social a:hover { color: #22d3ee; }
+.wm-social svg { width: 19px; height: 19px; }
+
+.wm-status {
+  position: absolute;
+  bottom: 32px;
+  right: 10vw;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.62rem;
+  color: #334155;
+  letter-spacing: 0.14em;
+  opacity: 0;
+  animation: wm-fade-up 0.5s ease forwards 0.9s;
+}
+.wm-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #22d3ee;
+  box-shadow: 0 0 8px #22d3ee;
+  animation: wm-pulse 2.2s ease infinite;
+}
+
+@keyframes wm-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+
+@keyframes wm-fade-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+<section id="wm-hero">
+  <div class="wm-grid"></div>
+  <div class="wm-ring"></div>
+
+  <div class="wm-content">
+    <p class="wm-eyebrow">Columbus, TX &nbsp;·&nbsp; Remote-First</p>
+
+    <h1 class="wm-name">Wayne<br><em>McKnight</em></h1>
+
+    <div class="wm-bar"></div>
+
+    <p class="wm-tagline">Senior Systems &amp; Infrastructure Engineer &nbsp;·&nbsp; U.S. Navy Veteran</p>
+    <p class="wm-bio">30+ years across government, law enforcement, healthcare, and education.</p>
+
+    <div class="wm-buttons">
+      <a href="/posts/" class="wm-btn wm-btn-primary">Read the Blog</a>
+      <a href="/resume/" class="wm-btn wm-btn-secondary">View Resume</a>
+    </div>
+
+    <div class="wm-social">
+      <a href="https://github.com/waynemcknight-code" title="GitHub" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+      </a>
+      <a href="mailto:wayne.mcknight@gmail.com" title="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+          <polyline points="22,6 12,12 2,6"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="wm-status">
+    <span class="wm-dot"></span>
+    SYSTEMS OPERATIONAL
+  </div>
+</section>
+{{ end }}

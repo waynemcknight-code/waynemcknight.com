@@ -1,6 +1,6 @@
 baseURL = 'https://waynemcknight.com/'
 languageCode = 'en'
-title = 'Wayne McKnight'
+title = 'WM'
 theme = 'congo'
 defaultContentLanguage = 'en'
 enableRobotsTXT = true
