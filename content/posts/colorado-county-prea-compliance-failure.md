@@ -5,7 +5,7 @@ draft: false
 categories: ["Politics", "Law"]
 ---
 
-*Originally submitted as a letter to the editor.*
+*Originally published as a letter to the editor in the Colorado County Citizen, May 2026.*
 
 ---
 
