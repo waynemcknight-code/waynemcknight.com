@@ -4,11 +4,31 @@
   weight = 10
 
 [[main]]
+  name = "Rock Crawling"
+  url = "/categories/rock-crawling/"
+  weight = 20
+
+[[main]]
+  name = "Tech"
+  url = "/categories/tech/"
+  weight = 30
+
+[[main]]
+  name = "Politics"
+  url = "/categories/politics/"
+  weight = 40
+
+[[main]]
+  name = "Law"
+  url = "/categories/law/"
+  weight = 50
+
+[[main]]
   name = "Resume"
   pageRef = "resume"
-  weight = 20
+  weight = 60
 
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 30
+  weight = 70
