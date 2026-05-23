@@ -21,7 +21,7 @@ Senior systems and infrastructure engineer with 40+ years working with computer 
 
 **Virtualization & HCI:** Proxmox VE, Ceph (hyper-converged), VMware ESXi & vCenter, Proxmox Backup Server, ZFS
 
-**Identity & Platforms:** Active Directory, Group Policy, DNS/DHCP, Google Workspace for Education, Microsoft 365, Windows Server, Debian/Ubuntu Linux
+**Identity & Platforms:** Active Directory, Group Policy, DNS/DHCP, Google Workspace for Education, Microsoft 365, Windows Server, Debian/Ubuntu Linux, ClassLink, OneSync
 
 **Networking:** Cisco Meraki (full stack), VLAN segmentation, routing & switching, jumbo-frame storage networks, firewalls, VPN, Palo Alto, TCP/IP
 
@@ -39,6 +39,7 @@ Senior systems and infrastructure engineer with 40+ years working with computer 
 **Brenham Independent School District** — Brenham, TX | Feb 2023 – Present
 
 - Architect and operator of the district's core infrastructure across multiple campuses: AD, Google Workspace for Education, Cisco Meraki, virtualization, MDM, backup, monitoring, and end-user escalations.
+- Manage ClassLink single sign-on and OneSync directory integration for district-wide application access and automated roster/identity provisioning across platforms.
 - Led full VMware-to-Proxmox migration: designed and procured an EPYC cluster backed by Ceph hyper-converged storage; retained dedicated VMware ESXi for Cisco UC (CUCM Pub/Sub, Unity, InformaCast) to preserve voice failover.
 - Recovered a production Proxmox cluster from a full ZFS pool outage; restored services and Ceph quorum, then engineered post-incident hardening (ZFS reservations, fleecing redirection, Postfix MTAs, ZED/SMTP alerting) to eliminate the failure mode.
 - Administer the district's IP-based video surveillance under FBI CJIS Security Policy: access controls, retention, and law enforcement coordination.
