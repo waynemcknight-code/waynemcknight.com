@@ -18,15 +18,6 @@
   url = "/categories/tech/"
   weight = 30
 
-[[main]]
-  name = "Politics"
-  url = "/categories/politics/"
-  weight = 40
-
-[[main]]
-  name = "Law"
-  url = "/categories/law/"
-  weight = 50
 
 [[main]]
   name = "Resume"
