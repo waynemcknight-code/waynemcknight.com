@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 date: 2026-05-20
-draft: true
+draft: false
 ---
 
 ## Wayne McKnight
