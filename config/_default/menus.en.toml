@@ -1,30 +1,14 @@
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Projects"
+  pageRef = "projects"
   weight = 10
-
-[[main]]
-  name = "Rock Crawling"
-  url = "/categories/rock-crawling/"
-  weight = 20
-
-[[main]]
-  name = "Jeep"
-  url = "/jeep/"
-  weight = 25
-
-[[main]]
-  name = "Tech"
-  url = "/categories/tech/"
-  weight = 30
-
 
 [[main]]
   name = "Resume"
   pageRef = "resume"
-  weight = 60
+  weight = 20
 
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 70
+  weight = 30
