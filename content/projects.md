@@ -6,7 +6,7 @@ draft: false
 
 ## Technical Projects
 
-Work generated in collaboration with Claude AI. Source code and live deployments below.
+Source code and live deployments below.
 
 ---
 
@@ -97,7 +97,7 @@ A persistent, session-independent memory system for tracking complex legal matte
 - Categorized memory files (user, project, feedback, reference)
 - [[cross-linking]] between related memories
 - MEMORY.md index for quick lookup
-- Automatic context loading across Claude AI sessions
+- Persistent context across sessions
 - Temporal accuracy (absolute dates instead of relative)
 
 **Active Cases:**
@@ -107,25 +107,9 @@ A persistent, session-independent memory system for tracking complex legal matte
 
 ---
 
-## Infrastructure & Platforms
+## Deployment
 
-**Primary Development Environment:** TheAlien (GPU-equipped Debian system)
-- Ollama for local LLM inference (llama3.2, qwen2.5-coder)
-- Git/GitHub SSH configured for automated commits
-- HOTAS controller + xCloud setup for stress-testing during heavy compute
-
-**Deployment:**
 - GitHub Pages for static sites (waynemcknight.com, aiether.info)
 - Proxmox LXC for vulnerability scanner
 - GitHub Actions for automated builds and deployments
-
----
-
-## Code Generation Approach
-
-All projects in this portfolio were built collaboratively with Claude AI using:
-- **Iterative design:** requirements clarification → architecture → implementation → testing
-- **Local-first computation:** Ollama for token-efficient prototyping, Claude for complex reasoning
-- **Version control:** Every commit documented and reversible
-- **Security-first:** Private keys, credentials, sensitive data never committed to public repos
 
