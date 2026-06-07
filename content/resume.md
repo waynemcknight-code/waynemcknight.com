@@ -1,19 +1,19 @@
 ---
 title: "Resume"
-date: 2026-05-20
+date: 2026-06-07
 draft: false
 ---
 
 ## Wayne McKnight
 **Senior Systems & Infrastructure Engineer  //  U.S. Navy Veteran**
 
-Columbus, TX  ·  979.661.9362  ·  wayne.mcknight@gmail.com  ·  Remote-Only
+Columbus, TX  ·  979.661.9362  ·  wayne.mcknight@gmail.com  ·  github.com/waynemcknight-code
 
 ---
 
 ## Professional Summary
 
-Senior systems and infrastructure engineer with 40+ years working with computer systems and 30+ years of professional IT experience across K–12 education, county government, healthcare, and law enforcement environments. Currently architect, operator, and on-call escalation point for a multi-campus district running Proxmox/Ceph hyper-converged virtualization, VMware ESXi, Active Directory, Cisco Meraki networking, and Cisco Unified Communications, with Python and shell automation across the operational tooling. Proven under pressure: led a full VMware-to-Proxmox migration, recovered a production cluster from a critical ZFS outage, and delivered a multi-million-dollar financial system migration on schedule. U.S. Navy veteran. Disciplined, self-directed, and built for a fully remote role.
+Senior systems and infrastructure engineer with 30+ years of professional experience across K–12 education, county government, healthcare, and law enforcement environments. Primary ownership of server, virtualization, storage, identity, and unified communications infrastructure: Proxmox/Ceph hyper-converged clusters, VMware ESXi, Active Directory, Cisco CUCM/Unity/InformaCast, and Python/shell automation throughout the operational stack. Works daily in a collaborative network engineering environment (Cisco Meraki, VLANs, VPN, firewalls) and has independently resolved Cisco CUCM and CUBE issues. Proven under pressure: led a full VMware-to-Proxmox migration, recovered a production cluster from a critical ZFS outage, and delivered infrastructure for a courthouse historical renovation on a public-sector budget. U.S. Navy veteran. Disciplined, thorough, and available for relocation.
 
 ---
 
@@ -38,18 +38,19 @@ Senior systems and infrastructure engineer with 40+ years working with computer 
 ### Network / Systems Administrator
 **Brenham Independent School District** — Brenham, TX | Feb 2023 – Present
 
-- Architect and operator of the district's core infrastructure across multiple campuses: AD, Google Workspace for Education, Cisco Meraki, virtualization, MDM, backup, monitoring, and end-user escalations.
-- Manage ClassLink single sign-on and OneSync directory integration for district-wide application access and automated roster/identity provisioning across platforms.
-- Led full VMware-to-Proxmox migration: designed and procured an EPYC cluster backed by Ceph hyper-converged storage; retained dedicated VMware ESXi for Cisco UC (CUCM Pub/Sub, Unity, InformaCast) to preserve voice failover.
-- Recovered a production Proxmox cluster from a full ZFS pool outage; restored services and Ceph quorum, then engineered post-incident hardening (ZFS reservations, fleecing redirection, Postfix MTAs, ZED/SMTP alerting) to eliminate the failure mode.
-- Administer the district's IP-based video surveillance under FBI CJIS Security Policy: access controls, retention, and law enforcement coordination.
-- Leading cloud storage migration from iLand to S3 object storage on 11:11 Systems, including lifecycle policy design, S3 API integration, and cutover planning.
-- Led the district's MUNIS-to-ASCENDER financial system migration end-to-end, coordinating finance, HR, and vendors without loss of fiscal-year continuity.
+- Architect and operator of the district's core infrastructure across multiple campuses: Proxmox/Ceph hyper-converged cluster (EPYC-based), VMware ESXi, Active Directory, Group Policy, DNS/DHCP, backup, and monitoring.
+- Lead administrator for Cisco CUCM Pub/Sub, Unity Connection, and Singlewire InformaCast: dial-plan management, voice gateway configuration, UC failover, and end-to-end troubleshooting including independent resolution of a Cisco CUBE fax infrastructure failure (root cause: fax rate disable on inbound dial-peers).
+- Works daily in a collaborative network engineering team (Cisco Meraki switching/wireless, VLANs, firewalls, VPN); independently resolves server-adjacent network issues and UC-layer connectivity problems.
+- Designed and procured Proxmox/Ceph HCI cluster; retained dedicated VMware ESXi nodes for Cisco UC workloads to preserve voice failover integrity across the migration.
+- Recovered a production Proxmox cluster from a full ZFS pool outage; restored services and Ceph quorum, then engineered post-incident hardening (ZFS reservations, ZED/SMTP alerting, fleecing redirection) to eliminate the failure mode.
+- Administer district IP-based video surveillance under FBI CJIS Security Policy: access controls, retention management, and law enforcement coordination.
+- Led MUNIS-to-ASCENDER financial system migration end-to-end, coordinating finance, HR, and vendors without loss of fiscal-year continuity.
+- Authored Python and shell automation across monitoring, alerting, backup verification, and operational tooling.
 
 ### IT Support Specialist (Contract)
 **QA Systems** — Austin, TX | Aug 2022 – Sep 2022
 
-Short-term enterprise K–12 contract supporting one of the largest school systems in Texas: hardware, imaging, computer-lab builds, and printer/network configuration across Microsoft, Apple, and Google ecosystems, working alongside Data Center, NOC, and Tech Design teams.
+Short-term enterprise K–12 contract supporting one of the largest school systems in Texas: hardware, imaging, computer-lab builds, and network configuration across Microsoft, Apple, and Google ecosystems, working alongside Data Center, NOC, and Tech Design teams.
 
 ### Project Coordinator / Assistant PM / Estimator
 **Jim Hoffman Tile / D9 Tile** — Columbus, TX | Jan 2016 – Aug 2022
