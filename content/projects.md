@@ -10,20 +10,22 @@ Source code and live deployments below.
 
 ---
 
-### BISD Campus Vulnerability Scanner
+### Network Infrastructure Vulnerability Scanner
 
 **Tech:** Python, Debian LXC, WinRM, SNMP, LDAP, concurrent scanning
 
-Network vulnerability scanner for Brenham ISD covering 10 school campuses. Identifies missing patches, unencrypted protocols, and policy violations across Windows/Linux/network infrastructure.
+Configurable multi-site network vulnerability scanner. Identifies missing patches, unencrypted protocols, and policy violations across Windows/Linux/network infrastructure. Framework with interactive setup wizard for any organization.
 
-- **Platform:** Debian LXC container on Proxmox cluster
-- **Scope:** WinRM security, SNMP configuration, LDAP binding, patch levels
-- **Status:** Production scanning, monitoring service planned for school start 2026
+- **Repo:** [waynemcknight-code/network-scanner](https://github.com/waynemcknight-code/network-scanner)
+- **License:** MIT (open source, free to use/modify)
+- **Deployment:** Docker, LXC, or native Python
 - **Features:**
-  - Multi-campus concurrent scanning
+  - Interactive setup.py for site/credential configuration
+  - Multi-site concurrent scanning
   - Credential-based authentication testing
   - Policy compliance checking
-  - Automated report generation
+  - HTML/JSON/CSV report generation
+  - Scheduled scanning (cron, Docker, Kubernetes)
 
 ---
 
@@ -43,20 +45,20 @@ Personal professional site hosting resume and project documentation. Uses Congo'
 
 ---
 
-### BISD Infrastructure Documentation
+### Multi-Campus Infrastructure Architecture
 
 **Tech:** Proxmox, Ceph, VMware ESXi, Active Directory, Cisco UC, Python automation
 
-Architecture and operational documentation for Brenham ISD's multi-campus infrastructure.
+Design and implementation of hyper-converged virtualization infrastructure across multiple campuses.
 
 **Virtualization & Storage:**
 - Proxmox VE cluster with Ceph hyper-converged storage (EPYC-based)
-- VMware ESXi hosts retained for Cisco Unified Communications (CUCM Pub/Sub, Unity, InformaCast)
+- VMware ESXi hosts for specialized workloads (Cisco Unified Communications)
 - Proxmox Backup Server for centralized backup strategy
 - ZFS pool management with post-outage hardening (reservations, ZED alerting)
 
 **Identity & Networking:**
-- Active Directory with Group Policy management across campuses
+- Active Directory with Group Policy management across sites
 - Google Workspace for Education integration
 - Cisco Meraki switching/wireless with VLAN segmentation
 - Cisco CUCM and Cisco CUBE for VoIP infrastructure
@@ -65,7 +67,7 @@ Architecture and operational documentation for Brenham ISD's multi-campus infras
 - Python-based monitoring and alerting
 - Backup verification automation
 - Operational tooling for incident response
-- Video surveillance under FBI CJIS Security Policy
+- FBI CJIS Security Policy compliance (video surveillance)
 
 ---
 
