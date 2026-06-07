@@ -1,0 +1,30 @@
+/* Widen article/content layout */
+.prose {
+  max-width: 100%;
+}
+
+article {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 95%;
+}
+
+/* Make tables wider for resume */
+table {
+  width: 100%;
+}
+
+/* Adjust padding for wider display */
+main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
